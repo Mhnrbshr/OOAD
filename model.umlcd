@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_QNUU4IQ6Ee6etuqwNE75wg">
+  <modelElement href="model.uml#_Wge8EIQ6Ee6etuqwNE75wg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WqqLwIQ6Ee6etuqwNE75wg" sourceAnchor="0.0,65.0" targetAnchor="649.0,68.0" target="_WqrZ4IQ6Ee6etuqwNE75wg" source="_ZRymEIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_WigVUIQ6Ee6etuqwNE75wg"/>
+    <nameVisual xmi:id="_Wqqy0IQ6Ee6etuqwNE75wg" text="">
+      <visualProperties xmi:id="_ZYttcIQ6Ee6etuqwNE75wg" position="-14.193548387096826,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Wqqy0YQ6Ee6etuqwNE75wg" aggregationKind="NONE" name="Product" navigable="true">
+      <modelElement href="model.uml#_WiIh4IQ6Ee6etuqwNE75wg"/>
+      <visualProperties xmi:id="_ZYr4QYQ6Ee6etuqwNE75wg" position="-147.28571428571422,2.0"/>
+      <visibility xmi:id="_Wqqy0oQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_Wqqy04Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Wqqy1IQ6Ee6etuqwNE75wg" aggregationKind="NONE" name="">
+      <modelElement href="model.uml#_Wig8YIQ6Ee6etuqwNE75wg"/>
+      <visualProperties xmi:id="_ZYttcYQ6Ee6etuqwNE75wg" position="18.193548387096712,1.9999999999998863"/>
+      <visibility xmi:id="_Wqqy1YQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_Wqqy1oQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_XYaCkIQ6Ee6etuqwNE75wg" sourceAnchor="421.0,0.0" targetAnchor="361.0,164.0" superClass="_ZRymEIQ6Ee6etuqwNE75wg" subClass="_XYeUAIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_XW3KcIQ6Ee6etuqwNE75wg"/>
+    <bendpoints xmi:id="_Ez_2w4Q7Ee6etuqwNE75wg" sourceY="-79" targetX="1290" targetY="286"/>
+    <bendpoints xmi:id="_E0Ad0IQ7Ee6etuqwNE75wg" sourceX="-1290" sourceY="-78" targetY="287"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_X89hIIQ6Ee6etuqwNE75wg" source="_X9GEAIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_X7HuEIQ6Ee6etuqwNE75wg"/>
+    <stereotypes xmi:id="_X9AkcIQ6Ee6etuqwNE75wg" name="Reference">
+      <modelElement href="model.uml#_X7JjQIQ6Ee6etuqwNE75wg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_X8_WUIQ6Ee6etuqwNE75wg" text=""/>
+    <sourceRole xmi:id="_X8_9YIQ6Ee6etuqwNE75wg" aggregationKind="NONE" name="">
+      <modelElement href="model.uml#_X7HuEYQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_X9BLgYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9BLgIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_X8_9YYQ6Ee6etuqwNE75wg" aggregationKind="NONE" name="accountList" navigable="true">
+      <modelElement href="model.uml#_X7COgYQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_X9BykYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9BykIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_YlSscIQ6Ee6etuqwNE75wg" sourceAnchor="403.0,0.0" targetAnchor="361.0,164.0" superClass="_ZRymEIQ6Ee6etuqwNE75wg" subClass="_YlZaIIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_YjgjwIQ6Ee6etuqwNE75wg"/>
+    <bendpoints xmi:id="_Ez_2wYQ7Ee6etuqwNE75wg" sourceY="-30" targetX="108" targetY="285"/>
+    <bendpoints xmi:id="_Ez_2woQ7Ee6etuqwNE75wg" sourceX="-108" sourceY="-28" targetY="287"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZNLL0IQ6Ee6etuqwNE75wg" source="_ZRymEIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_ZND3EIQ6Ee6etuqwNE75wg"/>
+    <stereotypes xmi:id="_ZNLL0YQ6Ee6etuqwNE75wg" name="Reference">
+      <modelElement href="model.uml#_ZNFFMIQ6Ee6etuqwNE75wg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZNLL0oQ6Ee6etuqwNE75wg" text=""/>
+    <sourceRole xmi:id="_ZNLL04Q6Ee6etuqwNE75wg" aggregationKind="NONE" name="">
+      <modelElement href="model.uml#_ZND3EYQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_ZNLL1IQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZNLL1YQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZNLL1oQ6Ee6etuqwNE75wg" aggregationKind="NONE" name="serviceList" navigable="true">
+      <modelElement href="model.uml#_ZM_loIQ6Ee6etuqwNE75wg"/>
+      <stereotypes xmi:id="_ZNO2MIQ6Ee6etuqwNE75wg" name="Generics"/>
+      <visibility xmi:id="_ZNLL14Q6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZNLL2IQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aO5ukIQ6Ee6etuqwNE75wg" sourceAnchor="458.0,0.0" targetAnchor="361.0,164.0" superClass="_ZRymEIQ6Ee6etuqwNE75wg" subClass="_aO-AAIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_aM0D4YQ6Ee6etuqwNE75wg"/>
+    <bendpoints xmi:id="_Ez_PsIQ7Ee6etuqwNE75wg" sourceY="-42" targetX="-800" targetY="285"/>
+    <bendpoints xmi:id="_Ez_2wIQ7Ee6etuqwNE75wg" sourceX="800" sourceY="-40" targetY="287"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_btOtwIQ6Ee6etuqwNE75wg" name="Service">
+    <modelElement href="model.uml#_bq06AIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_btOtwYQ6Ee6etuqwNE75wg" position="2915.0,157.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_btOtwoQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_btOtw4Q6Ee6etuqwNE75wg" name="serviceCode">
+      <modelElement href="model.uml#_bq7AoIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_btOtxIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_btOtxYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_btOtxoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_btOtx4Q6Ee6etuqwNE75wg" name="serviceName">
+      <modelElement href="model.uml#_bq7AoYQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_btOtyIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_btOtyYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_btOtyoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_btOty4Q6Ee6etuqwNE75wg" name="Rate">
+      <modelElement href="model.uml#_bq7nsIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_btOtzIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_btOtzYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_btOtzoQ6Ee6etuqwNE75wg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_btOtz4Q6Ee6etuqwNE75wg" name="Service">
+      <modelElement href="model.uml#_bq39UIQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_btOt0IQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_btPU0IQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_btPU0YQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_btPU0oQ6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_bq4kYYQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_btPU04Q6Ee6etuqwNE75wg" name="Service">
+          <modelElement href="model.uml#_bq06AIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_btPU1IQ6Ee6etuqwNE75wg" name="serviceCode">
+        <modelElement href="model.uml#_bq39UYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_btPU1YQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_btPU1oQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_btPU14Q6Ee6etuqwNE75wg" name="serviceName">
+        <modelElement href="model.uml#_bq39UoQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_btPU2IQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_btPU2YQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_btPU2oQ6Ee6etuqwNE75wg" name="rate">
+        <modelElement href="model.uml#_bq39U4Q6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_btPU24Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_btPU3IQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_btPU3YQ6Ee6etuqwNE75wg" name="setRate">
+      <modelElement href="model.uml#_bq4kYoQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_btPU3oQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_btPU34Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_btPU4IQ6Ee6etuqwNE75wg" name="rate">
+        <modelElement href="model.uml#_bq5LcIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_btPU4YQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_btPU4oQ6Ee6etuqwNE75wg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_X9GEAIQ6Ee6etuqwNE75wg" name="Customer" associationsOut="_X89hIIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_X9GEAYQ6Ee6etuqwNE75wg" position="10.0,308.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_X9GEAoQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_X9GEA4Q6Ee6etuqwNE75wg" name="customerCode">
+      <modelElement href="model.uml#_X7BncIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_X9GEBIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9GEBYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_X9GEBoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_X9GEB4Q6Ee6etuqwNE75wg" name="customerName">
+      <modelElement href="model.uml#_X7COgIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_X9GECIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9GECYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_X9GECoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_X9GEC4Q6Ee6etuqwNE75wg" name="accountList">
+      <modelElement href="model.uml#_X7COgYQ6Ee6etuqwNE75wg"/>
+      <stereotypes xmi:id="_X9GEDIQ6Ee6etuqwNE75wg" name="Generics">
+        <modelElement href="model.uml#_X7FR0IQ6Ee6etuqwNE75wg"/>
+      </stereotypes>
+      <visibility xmi:id="_X9GEDYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9GEDoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_X9GED4Q6Ee6etuqwNE75wg" name="ArrayList">
+        <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_X9GrEIQ6Ee6etuqwNE75wg" name="Customer">
+      <modelElement href="model.uml#_X68H4IQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_X9GrEYQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_X9GrEoQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_X9GrE4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_X9GrFIQ6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_X69WAoQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_X9GrFYQ6Ee6etuqwNE75wg" name="Customer">
+          <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_X9GrFoQ6Ee6etuqwNE75wg" name="customerCode">
+        <modelElement href="model.uml#_X68u8IQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_X9GrF4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_X9GrGIQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_X9GrGYQ6Ee6etuqwNE75wg" name="customerName">
+        <modelElement href="model.uml#_X68u8YQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_X9GrGoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_X9GrG4Q6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_X9GrHIQ6Ee6etuqwNE75wg" name="accountList">
+        <modelElement href="model.uml#_X68u8oQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_X9GrHYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_X9GrHoQ6Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aO-AAIQ6Ee6etuqwNE75wg" name="SavingsMaxAccount" generalizations="_aO5ukIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_aMbpYIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_aO-AAYQ6Ee6etuqwNE75wg" position="519.0,579.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_aO-AAoQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_aO-AA4Q6Ee6etuqwNE75wg" defaultValue="1000" name="minimumBalance">
+      <modelElement href="model.uml#_aM1SAIQ6Ee6etuqwNE75wg"/>
+      <stereotypes xmi:id="_aO-ABIQ6Ee6etuqwNE75wg" name="LegacyStyledElement">
+        <modelElement href="model.uml#_aM2gIIQ6Ee6etuqwNE75wg"/>
+      </stereotypes>
+      <visibility xmi:id="_aO-ABYQ6Ee6etuqwNE75wg" label="~"/>
+      <cardinality xmi:id="_aO-ABoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_aO-AB4Q6Ee6etuqwNE75wg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aO-ACIQ6Ee6etuqwNE75wg" name="getMinimumBalance">
+      <modelElement href="model.uml#_aMessIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_aO-ACYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_aO-ACoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aO-AC4Q6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_aMessYQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_aO-ADIQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_aO-ADYQ6Ee6etuqwNE75wg" name="setMinimumBalance">
+      <modelElement href="model.uml#_aMfTwIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_aO-ADoQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_aO-AD4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_aO-AEIQ6Ee6etuqwNE75wg" name="minimumBalance">
+        <modelElement href="model.uml#_aMfTwYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_aO-AEYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_aO-AEoQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aO-AE4Q6Ee6etuqwNE75wg" name="SavingsMaxAccount">
+      <modelElement href="model.uml#_aMxnoIQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_aO-AFIQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_aO-AFYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_aO-AFoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_aO-AF4Q6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_aMyOtIQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_aO-AGIQ6Ee6etuqwNE75wg" name="SavingsMaxAccount">
+          <modelElement href="model.uml#_aMbpYIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aO-AGYQ6Ee6etuqwNE75wg" name="productCode">
+        <modelElement href="model.uml#_aMxnoYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_aO-AGoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_aO-AG4Q6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aO-AHIQ6Ee6etuqwNE75wg" name="productName">
+        <modelElement href="model.uml#_aMyOsIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_aO-AHYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_aO-AHoQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_aO-AH4Q6Ee6etuqwNE75wg" name="serviceList">
+        <modelElement href="model.uml#_aMyOsYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_aO-AIIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_aO-AIYQ6Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YlZaIIQ6Ee6etuqwNE75wg" name="LoanAccount" generalizations="_YlSscIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_Yi_mYIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_YlZaIYQ6Ee6etuqwNE75wg" position="1482.0,567.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YlZaIoQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_YlZaI4Q6Ee6etuqwNE75wg" defaultValue="0.03" name="checkDeposite">
+      <modelElement href="model.uml#_Yjhx4IQ6Ee6etuqwNE75wg"/>
+      <stereotypes xmi:id="_YlZaJIQ6Ee6etuqwNE75wg" name="LegacyStyledElement">
+        <modelElement href="model.uml#_YjjAAIQ6Ee6etuqwNE75wg"/>
+      </stereotypes>
+      <visibility xmi:id="_YlZaJYQ6Ee6etuqwNE75wg" label="~"/>
+      <cardinality xmi:id="_YlZaJoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_YlZaJ4Q6Ee6etuqwNE75wg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YlZaKIQ6Ee6etuqwNE75wg" name="getCheckDeposite">
+      <modelElement href="model.uml#_YjCCoIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_YlZaKYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_YlZaKoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YlZaK4Q6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_YjCpsIQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_YlZaLIQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YlZaLYQ6Ee6etuqwNE75wg" name="setCheckDeposite">
+      <modelElement href="model.uml#_YjD30IQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_YlZaLoQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_YlZaL4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YlZaMIQ6Ee6etuqwNE75wg" name="checkDeposite">
+        <modelElement href="model.uml#_YjD30YQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_YlZaMYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_YlZaMoQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YlZaM4Q6Ee6etuqwNE75wg" name="LoanAccount">
+      <modelElement href="model.uml#_YjbEMIQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_YlZaNIQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_YlZaNYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_YlZaNoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YlZaN4Q6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_YjbrQoQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_YlZaOIQ6Ee6etuqwNE75wg" name="LoanAccount">
+          <modelElement href="model.uml#_Yi_mYIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YlZaOYQ6Ee6etuqwNE75wg" name="productCode">
+        <modelElement href="model.uml#_YjbEMYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_YlZaOoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_YlZaO4Q6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YlZaPIQ6Ee6etuqwNE75wg" name="productName">
+        <modelElement href="model.uml#_YjbEMoQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_YlZaPYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_YlZaPoQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YlZaP4Q6Ee6etuqwNE75wg" name="serviceList">
+        <modelElement href="model.uml#_YjbEM4Q6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_YlZaQIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_YlZaQYQ6Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_XYeUAIQ6Ee6etuqwNE75wg" name="CurrentAccount" generalizations="_XYaCkIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_XWW0IIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_XYeUAYQ6Ee6etuqwNE75wg" position="2646.0,616.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_XYeUAoQ6Ee6etuqwNE75wg" label="+"/>
+    <operations xmi:id="_XYeUA4Q6Ee6etuqwNE75wg" name="CurrentAccount">
+      <modelElement href="model.uml#_XW4_oIQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_XYeUBIQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_XYeUBYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_XYeUBoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XYeUB4Q6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_XW6NwYQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_XYeUCIQ6Ee6etuqwNE75wg" name="CurrentAccount">
+          <modelElement href="model.uml#_XWW0IIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_XYeUCYQ6Ee6etuqwNE75wg" name="productCode">
+        <modelElement href="model.uml#_XW4_oYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_XYeUCoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_XYeUC4Q6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_XYeUDIQ6Ee6etuqwNE75wg" name="productName">
+        <modelElement href="model.uml#_XW5msIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_XYeUDYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_XYeUDoQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_XYeUD4Q6Ee6etuqwNE75wg" name="serviceList">
+        <modelElement href="model.uml#_XW5msYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_XYeUEIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_XYeUEYQ6Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZRymEIQ6Ee6etuqwNE75wg" name="Product" associationsOut="_WqqLwIQ6Ee6etuqwNE75wg _ZNLL0IQ6Ee6etuqwNE75wg" subclassedBy="_XYaCkIQ6Ee6etuqwNE75wg _YlSscIQ6Ee6etuqwNE75wg _aO5ukIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_Wh2OAIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_ZRymEYQ6Ee6etuqwNE75wg" position="1416.0,86.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZRymEoQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_ZRymE4Q6Ee6etuqwNE75wg" name="productCode">
+      <modelElement href="model.uml#_ZM9wcIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_ZRymFIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZRymFYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRymFoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZRymF4Q6Ee6etuqwNE75wg" name="productName">
+      <modelElement href="model.uml#_ZM--kIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_ZRymGIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZRymGYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRymGoQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZRymG4Q6Ee6etuqwNE75wg" name="serviceList">
+      <modelElement href="model.uml#_ZM_loIQ6Ee6etuqwNE75wg"/>
+      <stereotypes xmi:id="_ZRymHIQ6Ee6etuqwNE75wg" name="Generics">
+        <modelElement href="model.uml#_ZNBa0IQ6Ee6etuqwNE75wg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZRymHYQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZRymHoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZRymH4Q6Ee6etuqwNE75wg" name="ArrayList">
+        <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZRymIIQ6Ee6etuqwNE75wg" name="Product">
+      <modelElement href="model.uml#_ZM438IQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_ZRymIYQ6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_ZRymIoQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_ZRymI4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZRymJIQ6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_ZM6GEoQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_ZRymJYQ6Ee6etuqwNE75wg" name="Product">
+          <modelElement href="model.uml#_Wh2OAIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZRymJoQ6Ee6etuqwNE75wg" name="productCode">
+        <modelElement href="model.uml#_ZM438YQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_ZRymJ4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZRymKIQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZRymKYQ6Ee6etuqwNE75wg" name="productName">
+        <modelElement href="model.uml#_ZM5fAIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_ZRymKoQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZRymK4Q6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ZRymLIQ6Ee6etuqwNE75wg" name="serviceList">
+        <modelElement href="model.uml#_ZM5fAYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_ZRymLYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZRymLoQ6Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WqrZ4IQ6Ee6etuqwNE75wg" name="Account" associationsIn="_WqqLwIQ6Ee6etuqwNE75wg">
+    <modelElement href="model.uml#_Wgp7MIQ6Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_WqsA8IQ6Ee6etuqwNE75wg" position="215.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WqsA8YQ6Ee6etuqwNE75wg" label="+"/>
+    <attributes xmi:id="_WqsA8oQ6Ee6etuqwNE75wg" name="accountNo">
+      <modelElement href="model.uml#_WiGssIQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_WqsA84Q6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_WqsA9IQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_WqsA9YQ6Ee6etuqwNE75wg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WqsA9oQ6Ee6etuqwNE75wg" name="balance">
+      <modelElement href="model.uml#_WiH60IQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_WqsA94Q6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_WqsA-IQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_WqsA-YQ6Ee6etuqwNE75wg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WqsA-oQ6Ee6etuqwNE75wg" name="Product">
+      <modelElement href="model.uml#_WiIh4IQ6Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_WqsA-4Q6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_WqsA_IQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <type xmi:id="_WqsA_YQ6Ee6etuqwNE75wg" name="Product">
+        <modelElement href="model.uml#_Wh2OAIQ6Ee6etuqwNE75wg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WqsA_oQ6Ee6etuqwNE75wg" name="Account">
+      <modelElement href="model.uml#_Wh__AIQ6Ee6etuqwNE75wg"/>
+      <keywords xmi:id="_WqsA_4Q6Ee6etuqwNE75wg" keyword="create"/>
+      <visibility xmi:id="_WqsBAIQ6Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_WqsBAYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WqsBAoQ6Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_WiDCUYQ6Ee6etuqwNE75wg"/>
+        <type xmi:id="_WqsBA4Q6Ee6etuqwNE75wg" name="Account">
+          <modelElement href="model.uml#_Wgp7MIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WqsBBIQ6Ee6etuqwNE75wg" name="accountNo">
+        <modelElement href="model.uml#_WiAmEIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_WqsBBYQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_WqsBBoQ6Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WqsBB4Q6Ee6etuqwNE75wg" name="balance">
+        <modelElement href="model.uml#_WiAmEYQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_WqsBCIQ6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_WqsBCYQ6Ee6etuqwNE75wg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WqsBCoQ6Ee6etuqwNE75wg" name="product">
+        <modelElement href="model.uml#_WiBNIIQ6Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_WqsBC4Q6Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_WqsBDIQ6Ee6etuqwNE75wg" name="Product">
+          <modelElement href="model.uml#_Wh2OAIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_GDGuMIQ7Ee6etuqwNE75wg" name="AccountConfiguration">
+    <modelElement href="model.uml#_F_QwAIQ7Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_GDGuMYQ7Ee6etuqwNE75wg" position="66.0,825.0"/>
+    <visibility xmi:id="_GDGuMoQ7Ee6etuqwNE75wg" label="+"/>
+    <operations xmi:id="_GDGuO4Q7Ee6etuqwNE75wg" name="createAccount" staticOperation="true">
+      <modelElement href="model.uml#_GADaMYQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_GDGuPIQ7Ee6etuqwNE75wg" label="-"/>
+      <cardinality xmi:id="_GDGuPYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_GDGuPoQ7Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_GAEBQoQ7Ee6etuqwNE75wg"/>
+        <type xmi:id="_GDGuP4Q7Ee6etuqwNE75wg" name="Account">
+          <modelElement href="model.uml#_Wgp7MIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_GDGuQIQ7Ee6etuqwNE75wg" name="procode">
+        <modelElement href="model.uml#_GAEBQIQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_GDGuQYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_GDGuQoQ7Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_GDGuQ4Q7Ee6etuqwNE75wg" name="productList">
+        <modelElement href="model.uml#_GAEBQYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_GDGuRIQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_GDGuRYQ7Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GDGuRoQ7Ee6etuqwNE75wg" name="displayAccounts" staticOperation="true">
+      <modelElement href="model.uml#_GAF2cIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_GDGuR4Q7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_GDGuSIQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GDGuSYQ7Ee6etuqwNE75wg" name="customer">
+        <modelElement href="model.uml#_GAF2cYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_GDGuSoQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_GDGuS4Q7Ee6etuqwNE75wg" name="Customer">
+          <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_GDGuTIQ7Ee6etuqwNE75wg" name="transactionBill" staticOperation="true">
+      <modelElement href="model.uml#_GAGdgIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_GDHVQIQ7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_GDHVQYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_GDHVQoQ7Ee6etuqwNE75wg" name="customer">
+        <modelElement href="model.uml#_GAGdgYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_GDHVQ4Q7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_GDHVRIQ7Ee6etuqwNE75wg" name="Customer">
+          <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_J9N3sIRZEe6etuqwNE75wg" name="createCustomer" staticOperation="true">
+      <modelElement href="model.uml#_J7nVMIRZEe6etuqwNE75wg"/>
+      <visibility xmi:id="_J9OewIRZEe6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_J9OewYRZEe6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_J9OewoRZEe6etuqwNE75wg">
+        <modelElement href="model.uml#_J7ojUIRZEe6etuqwNE75wg"/>
+        <type xmi:id="_J9Oew4RZEe6etuqwNE75wg" name="Customer">
+          <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_J9OexIRZEe6etuqwNE75wg" name="productList">
+        <modelElement href="model.uml#_J7n8QIRZEe6etuqwNE75wg"/>
+        <cardinality xmi:id="_J9OexYRZEe6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_J9OexoRZEe6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_J9Oex4RZEe6etuqwNE75wg" name="accountList">
+        <modelElement href="model.uml#_J7n8QYRZEe6etuqwNE75wg"/>
+        <cardinality xmi:id="_J9OeyIRZEe6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_J9OeyYRZEe6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_H2xrQIQ7Ee6etuqwNE75wg" name="ManageAccount">
+    <modelElement href="model.uml#_HzcDYIQ7Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_H2xrQYQ7Ee6etuqwNE75wg" position="875.0,858.0"/>
+    <visibility xmi:id="_H2xrQoQ7Ee6etuqwNE75wg" label="+"/>
+    <operations xmi:id="_H2xrQ4Q7Ee6etuqwNE75wg" name="manageAccount" staticOperation="true">
+      <modelElement href="model.uml#_Hz1sAIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_H2ySUIQ7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_H2ySUYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_H2ySUoQ7Ee6etuqwNE75wg" name="customer">
+        <modelElement href="model.uml#_Hz1sAYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_H2ySU4Q7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_H2ySVIQ7Ee6etuqwNE75wg" name="Customer">
+          <modelElement href="model.uml#_X6likIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H2ySVYQ7Ee6etuqwNE75wg" name="withdrawMoney" staticOperation="true">
+      <modelElement href="model.uml#_Hz2TEIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_H2ySVoQ7Ee6etuqwNE75wg" label="-"/>
+      <cardinality xmi:id="_H2ySV4Q7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_H2ySWIQ7Ee6etuqwNE75wg" name="selectedAccount">
+        <modelElement href="model.uml#_Hz2TEYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_H2ySWYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_H2ySWoQ7Ee6etuqwNE75wg" name="Account">
+          <modelElement href="model.uml#_Wgp7MIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_H2ySW4Q7Ee6etuqwNE75wg" name="depositMoney" staticOperation="true">
+      <modelElement href="model.uml#_Hz26IIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_H2ySXIQ7Ee6etuqwNE75wg" label="-"/>
+      <cardinality xmi:id="_H2ySXYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_H2ySXoQ7Ee6etuqwNE75wg" name="selectedAccount">
+        <modelElement href="model.uml#_Hz26IYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_H2ySX4Q7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_H2ySYIQ7Ee6etuqwNE75wg" name="Account">
+          <modelElement href="model.uml#_Wgp7MIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Kt30MIQ7Ee6etuqwNE75wg" name="ProductConfiguration">
+    <modelElement href="model.uml#_Kp-LoIQ7Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_Kt30MYQ7Ee6etuqwNE75wg" position="1609.0,896.0"/>
+    <visibility xmi:id="_Kt30MoQ7Ee6etuqwNE75wg" label="+"/>
+    <operations xmi:id="_Kt30M4Q7Ee6etuqwNE75wg" name="addService" staticOperation="true">
+      <modelElement href="model.uml#_Kp-ysIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_Kt30NIQ7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_Kt30NYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Kt30NoQ7Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_KqZCYIQ7Ee6etuqwNE75wg"/>
+        <type xmi:id="_Kt30N4Q7Ee6etuqwNE75wg" name="Service">
+          <modelElement href="model.uml#_bq06AIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Kt30OIQ7Ee6etuqwNE75wg" name="createProduct" staticOperation="true">
+      <modelElement href="model.uml#_KqZpcIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_Kt30OYQ7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_Kt30OoQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Kt30O4Q7Ee6etuqwNE75wg">
+        <modelElement href="model.uml#_KqaQgIQ7Ee6etuqwNE75wg"/>
+        <type xmi:id="_Kt30PIQ7Ee6etuqwNE75wg" name="Product">
+          <modelElement href="model.uml#_Wh2OAIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Kt30PYQ7Ee6etuqwNE75wg" name="serviceList">
+        <modelElement href="model.uml#_KqZpcYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_Kt30PoQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+        <type xmi:id="_Kt30P4Q7Ee6etuqwNE75wg" name="ArrayList">
+          <modelElement href="model.uml#_XWzgEIQ6Ee6etuqwNE75wg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_M4KhgIQ7Ee6etuqwNE75wg" name="AccountUtility">
+    <modelElement href="model.uml#_M1qAEIQ7Ee6etuqwNE75wg"/>
+    <visualProperties xmi:id="_M4KhgYQ7Ee6etuqwNE75wg" position="2512.0,887.0"/>
+    <visibility xmi:id="_M4KhgoQ7Ee6etuqwNE75wg" label="+"/>
+    <operations xmi:id="_M4Khg4Q7Ee6etuqwNE75wg" name="main" staticOperation="true">
+      <modelElement href="model.uml#_M1r1QIQ7Ee6etuqwNE75wg"/>
+      <visibility xmi:id="_M4KhhIQ7Ee6etuqwNE75wg" label="+"/>
+      <cardinality xmi:id="_M4KhhYQ7Ee6etuqwNE75wg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_M4KhhoQ7Ee6etuqwNE75wg" name="args">
+        <modelElement href="model.uml#_M1r1QYQ7Ee6etuqwNE75wg"/>
+        <cardinality xmi:id="_M4Khh4Q7Ee6etuqwNE75wg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_M4KhiIQ7Ee6etuqwNE75wg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
